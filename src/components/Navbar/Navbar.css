@@ -1,4 +1,6 @@
 .navbar  {
+    position: sticky;
+    top: 0;
     display: flex;
     background-color: white;
     padding: 1px 100px;
@@ -10,20 +12,29 @@
              "Helvetica Neue", Arial, sans-serif,
              Apple Color Emoji, Noto Color Emoji,
              Segoe UI Emoji, Segoe UI Symbol, emoji;
-             align-items: center;
+    align-items: center;
+    border-bottom: 0.1px lightgray;
+    height: 55px;
 }
 .navbar_left {
     display: flex;
     flex: 40%;
 }
+.logo {
+    cursor: pointer;
+}
 .search_box {
     padding: 0 20px;
     display: flex;
     align-items: center;
+    height: 38px;
+    background-color: #EEF3F8;
+    margin-top: 7px;
+    border-radius: 4px;
 }
 .search_box > input {
-    width: 250px;
-    height: 30px;
+    width: 220px;
+    height: 35px;
     font-size: 15px;
     padding: 0 15px;
     background-color: #EEF3F8;
@@ -45,16 +56,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     cursor: pointer;
     color: #00000099;
-    padding: 0 7px;
+    width: 80px;
 }
 .navbar_right_icons:hover {
     color: black;
 }
 .navbar_right_icons_des {
-    margin: 0 12px;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.avatar {
+    margin-top: 2px;
 }
 .most_right {
     flex: 20%;

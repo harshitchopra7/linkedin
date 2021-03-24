@@ -1,0 +1,13 @@
+.home {
+    display: flex;
+    margin: 50px 100px;
+}
+.left_home {
+    flex: 0.2;
+}
+.middle_home {
+    flex: 0.6;
+}
+.right_home {
+    flex: 0.2;
+}

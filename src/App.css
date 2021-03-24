@@ -1,3 +1,11 @@
 body {
   background-color: whitesmoke;
+  font-family: -apple-system-ui-serif, ui-serif,
+             system-ui, -apple-system, BlinkMacSystemFont,
+             system, "Noto Sans", noto, "Fira Sans",
+             Segoe UI, "Droid Sans", "Droid Sans Fallback",
+             "Roboto", "Cantarell", "Ubuntu",
+             "Helvetica Neue", Arial, sans-serif,
+             Apple Color Emoji, Noto Color Emoji,
+             Segoe UI Emoji, Segoe UI Symbol, emoji;
 }

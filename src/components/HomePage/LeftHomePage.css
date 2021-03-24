@@ -1,0 +1,78 @@
+.left_homepage {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+}
+.name_desc {
+    padding: 25px 0;
+    border-bottom: 2px solid whitesmoke;
+    width: 100%;
+}
+.my_name {
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 500;
+}
+.my_name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.my_desc {
+    font-size: 14px;
+    color: #00000099;
+}
+.stats1  {
+    width: 90%;
+    margin-top: 10px;
+    padding: 5px 15px;
+    display: flex;
+}
+.stats1:hover, .stats2:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.stats_text {
+    text-align: left;
+    font-size: 14px;
+    color: #00000099;
+}
+.stats2 {
+    width: 90%;
+    padding: 5px 15px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.stats_no {
+    font-size: 14px;
+    color: #0A66C2;
+    flex: 10%;
+    text-align: right;
+}
+.access_exclusive {
+    border-top: 2px solid whitesmoke;
+    padding: 10px;
+    border-bottom: 2px solid whitesmoke;
+}
+.access_exclusive_access {
+    font-size: 14px;
+    color: #00000099;
+}
+.access_exclusive_try {
+    font-size: 14px;
+    font-weight: 500;
+}
+.my_itemss {
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+}
+.my_itemss:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.my_itemss > img {
+    margin: 0 10px;
+}
