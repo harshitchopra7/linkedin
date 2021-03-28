@@ -1,0 +1,45 @@
+.post_component {
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-top: 10px;
+}
+.post_header {
+    display: flex;
+}
+.post_description {
+    margin-left: 10px;
+}
+.post_description_name {
+    font-size: 15px;
+    font-weight: 500;
+}
+.post_description_description {
+    font-size: 13px;
+    color: #00000099;
+}
+.post_body {
+    margin-top: 15px;
+}
+.post_buttons {
+    display: flex;
+    margin-top: 10px;
+}
+.post_comment {
+    display: flex;
+}
+.post_comment > input {
+    width: 100%;
+    border-color: #C0C0C0;
+    border-style: solid;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    margin-left: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+    cursor: text;
+}
+.post_comment > input:focus {
+    border-color: #808080;
+}

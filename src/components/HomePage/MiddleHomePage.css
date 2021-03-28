@@ -1,0 +1,67 @@
+.middle_homepage {
+    margin: 0 30px;
+}
+.middle_homepage_top {
+    background-color: white;
+    border-radius: 12px;
+}
+.post {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.post_input {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.post_input > input {
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    border-color: #EAEAEA;
+    border-style: solid;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+.post_input > input:hover {
+    background-color: whitesmoke;
+    cursor: text;
+}
+.post_input > button {
+    width: 50px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.input_option_items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+.posts_sort {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #00000099;
+}
+.posts_hr {
+    margin: 20px 0;
+    width: 80%;
+    border: 0.5px solid #DCDCDC;
+}
+.posts_sort > p {
+    margin-left: 10px;
+}
+.sorting {
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+.middle_homepage_posts {
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px 20px;
+}
